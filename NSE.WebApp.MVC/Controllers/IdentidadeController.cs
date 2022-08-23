@@ -66,7 +66,6 @@ namespace NSE.WebApp.MVC.Controllers
             if (ResponsePossuiErros(resposta.ResponseResult))
                 return View(usuarioLogin);
 
-            // Reliza login no App
             await RealizarLogin(resposta);
 
             if (string.IsNullOrEmpty(returnUrl))
