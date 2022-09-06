@@ -3,7 +3,7 @@ using NSE.Catalogo.API.Contracts;
 using NSE.Catalogo.API.Data;
 using NSE.Catalogo.API.Repository;
 
-namespace NSE.Catalogo.API.Configurations
+namespace NSE.Catalogo.API.Configuration
 {
     public static class DependencyInjectionConfig
     {
