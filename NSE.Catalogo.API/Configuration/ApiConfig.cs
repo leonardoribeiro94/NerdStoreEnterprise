@@ -41,6 +41,7 @@ namespace NSE.Catalogo.API.Configuration
 
             app.UseCors("Total");
 
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

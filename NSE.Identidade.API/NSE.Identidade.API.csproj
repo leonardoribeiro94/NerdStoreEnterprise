@@ -25,5 +25,9 @@
 
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\NSE.WebApi.Core\NSE.WebApi.Core.csproj" />
+  </ItemGroup>
+
 
 </Project>

@@ -19,6 +19,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\NSE.Core\NSE.Core.csproj" />
+		<ProjectReference Include="..\NSE.WebApi.Core\NSE.WebApi.Core.csproj" />
 	</ItemGroup>
 
 
